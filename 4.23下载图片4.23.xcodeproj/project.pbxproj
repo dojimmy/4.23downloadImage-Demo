@@ -15,6 +15,10 @@
 		BF21F3061CCB7B930057DABD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF21F3041CCB7B930057DABD /* LaunchScreen.storyboard */; };
 		BF21F3111CCB7B930057DABD /* __23____4_23Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF21F3101CCB7B930057DABD /* __23____4_23Tests.m */; };
 		BF21F31C1CCB7B930057DABD /* __23____4_23UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF21F31B1CCB7B930057DABD /* __23____4_23UITests.m */; };
+		BF21F32A1CCB7BDD0057DABD /* apps.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF21F3291CCB7BDD0057DABD /* apps.plist */; };
+		BF21F32D1CCB7C130057DABD /* DJAppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = BF21F32C1CCB7C130057DABD /* DJAppInfo.m */; };
+		BF21F3301CCB7E9B0057DABD /* DJAppCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF21F32F1CCB7E9B0057DABD /* DJAppCell.m */; };
+		BF21F3331CCB86C20057DABD /* NSString+Path.m in Sources */ = {isa = PBXBuildFile; fileRef = BF21F3321CCB86C20057DABD /* NSString+Path.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,13 @@
 		BF21F3171CCB7B930057DABD /* 4.23下载图片4.23UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "4.23下载图片4.23UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF21F31B1CCB7B930057DABD /* __23____4_23UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__23____4_23UITests.m"; sourceTree = "<group>"; };
 		BF21F31D1CCB7B930057DABD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF21F3291CCB7BDD0057DABD /* apps.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = apps.plist; sourceTree = "<group>"; };
+		BF21F32B1CCB7C130057DABD /* DJAppInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJAppInfo.h; sourceTree = "<group>"; };
+		BF21F32C1CCB7C130057DABD /* DJAppInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJAppInfo.m; sourceTree = "<group>"; };
+		BF21F32E1CCB7E9B0057DABD /* DJAppCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJAppCell.h; sourceTree = "<group>"; };
+		BF21F32F1CCB7E9B0057DABD /* DJAppCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJAppCell.m; sourceTree = "<group>"; };
+		BF21F3311CCB86C20057DABD /* NSString+Path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Path.h"; sourceTree = "<group>"; };
+		BF21F3321CCB86C20057DABD /* NSString+Path.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Path.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +114,18 @@
 			children = (
 				BF21F2F91CCB7B930057DABD /* AppDelegate.h */,
 				BF21F2FA1CCB7B930057DABD /* AppDelegate.m */,
+				BF21F3311CCB86C20057DABD /* NSString+Path.h */,
+				BF21F3321CCB86C20057DABD /* NSString+Path.m */,
 				BF21F2FC1CCB7B930057DABD /* ViewController.h */,
 				BF21F2FD1CCB7B930057DABD /* ViewController.m */,
 				BF21F2FF1CCB7B930057DABD /* Main.storyboard */,
 				BF21F3021CCB7B930057DABD /* Assets.xcassets */,
 				BF21F3041CCB7B930057DABD /* LaunchScreen.storyboard */,
 				BF21F3071CCB7B930057DABD /* Info.plist */,
+				BF21F32E1CCB7E9B0057DABD /* DJAppCell.h */,
+				BF21F32F1CCB7E9B0057DABD /* DJAppCell.m */,
+				BF21F32B1CCB7C130057DABD /* DJAppInfo.h */,
+				BF21F32C1CCB7C130057DABD /* DJAppInfo.m */,
 				BF21F2F61CCB7B930057DABD /* Supporting Files */,
 			);
 			path = "4.23下载图片4.23";
@@ -117,6 +134,7 @@
 		BF21F2F61CCB7B930057DABD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BF21F3291CCB7BDD0057DABD /* apps.plist */,
 				BF21F2F71CCB7B930057DABD /* main.m */,
 			);
 			name = "Supporting Files";
@@ -246,6 +264,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF21F32A1CCB7BDD0057DABD /* apps.plist in Resources */,
 				BF21F3061CCB7B930057DABD /* LaunchScreen.storyboard in Resources */,
 				BF21F3031CCB7B930057DABD /* Assets.xcassets in Resources */,
 				BF21F3011CCB7B930057DABD /* Main.storyboard in Resources */,
@@ -273,8 +292,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF21F3301CCB7E9B0057DABD /* DJAppCell.m in Sources */,
 				BF21F2FE1CCB7B930057DABD /* ViewController.m in Sources */,
+				BF21F32D1CCB7C130057DABD /* DJAppInfo.m in Sources */,
 				BF21F2FB1CCB7B930057DABD /* AppDelegate.m in Sources */,
+				BF21F3331CCB86C20057DABD /* NSString+Path.m in Sources */,
 				BF21F2F81CCB7B930057DABD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
